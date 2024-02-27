@@ -1,5 +1,13 @@
 # @melt-ui/svelte
 
+## 0.74.4
+
+### Patch Changes
+
+- fix(Calendar/Range Calendar): use `'button'` for button elements' `type` ([#1003](https://github.com/melt-ui/melt-ui/pull/1003))
+
+- Fixed bug where on outside interaction in several components (popover, menu, link preview, tooltip, listbox), on component unmount, the content jumps during out transition if content was mounted in an else if block (closes #1005) ([#1006](https://github.com/melt-ui/melt-ui/pull/1006))
+
 ## 0.74.3
 
 ### Patch Changes
